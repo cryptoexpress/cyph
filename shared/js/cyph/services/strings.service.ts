@@ -27,14 +27,14 @@ export class StringsService {
 	public readonly connectedNotification: string	= translate(`Connected!`);
 
 	/** @see StringsService */
-	public readonly contactCyph: string				= translate(`Contact Cyph`);
+	public readonly contactCyph: string				= translate(`Contact Veloscient`);
 
 	/** @see StringsService */
 	public readonly continueDialogAction: string	= translate(`continue`);
 
 	/** @see StringsService */
 	public readonly cypherToast1: string			= translate(
-		`Prepare to witness the amazing nuts and bolts of Cyph.`
+		`Prepare to witness the amazing nuts and bolts of Veloscient with Cyph.`
 	);
 
 	/** @see StringsService */
@@ -50,7 +50,7 @@ export class StringsService {
 
 	/** @see StringsService */
 	public readonly defaultDescription: string		= translate(
-		`Check out my lit new video ;). https://youtu.be/oHg5SJYRHA0`
+		`Check out our video ;). https://youtu.be/jb2cE65NUcY`
 	);
 
 	/** @see StringsService */
@@ -72,7 +72,7 @@ export class StringsService {
 
 	/** @see StringsService */
 	public readonly disconnectNotification: string	= translate(
-		`This cyph has been disconnected.`
+		`This session has been disconnected.`
 	);
 
 	/** @see StringsService */
@@ -80,7 +80,7 @@ export class StringsService {
 
 	/** @see StringsService */
 	public readonly disconnectWarning: string		= translate(
-		`After closing Cyph, your messages will no longer be retrievable.`
+		`After closing Doctor2Doctor, your messages will no longer be retrievable.`
 	);
 
 	/** @see StringsService */
@@ -96,7 +96,7 @@ export class StringsService {
 
 	/** @see StringsService */
 	public readonly fileTransferInitFriend: string	= translate(
-		`Your friend is sending the file:`
+		`Your colleague is sending the file:`
 	);
 
 	/** @see StringsService */
@@ -108,7 +108,7 @@ export class StringsService {
 	public readonly formattingHelp: string			= translate(`Formatting Help`);
 
 	/** @see StringsService */
-	public readonly friend: string					= translate(`friend`);
+	public readonly friend: string					= translate(`colleague`);
 
 	/** @see StringsService */
 	public readonly help: string					= translate(`Help`);
@@ -118,7 +118,7 @@ export class StringsService {
 
 	/** @see StringsService */
 	public readonly incomingFileDownload: string	= translate(
-		`Your friend would like to send you a file. Accept the file transfer?`
+		`Your colleague would like to send you a file. Accept the file transfer?`
 	);
 
 	/** @see StringsService */
@@ -128,7 +128,7 @@ export class StringsService {
 
 	/** @see StringsService */
 	public readonly incomingFileSave: string		= translate(
-		`Your friend has sent you a file. It has not been scanned for malware; ` +
+		`Your colleague has sent you a file. It has not been scanned for malware; ` +
 		`you may choose to accept it AT YOUR OWN RISK. Save this file?`
 	);
 
@@ -139,7 +139,7 @@ export class StringsService {
 
 	/** @see StringsService */
 	public readonly introductoryMessage: string		= translate(
-		`You may now speak.`
+		`You may now start your session.`
 	);
 
 	/** @see StringsService */
@@ -158,7 +158,7 @@ export class StringsService {
 	);
 
 	/** @see StringsService */
-	public readonly linkCopied: string				= translate(`Cyph link copied.`);
+	public readonly linkCopied: string				= translate(`Dr2Dr link copied.`);
 
 	/** @see StringsService */
 	public readonly linkCopyFail: string			= translate(
@@ -227,12 +227,12 @@ export class StringsService {
 
 	/** @see StringsService */
 	public readonly outgoingFileRejected: string	= translate(
-		`Your "friend" has rejected the following file transfer:`
+		`Your colleague has rejected the following file transfer:`
 	);
 
 	/** @see StringsService */
 	public readonly outgoingFileSaved: string		= translate(
-		`File transfer complete! Your friend has saved the following file:`
+		`File transfer complete! Your colleague has saved the following file:`
 	);
 
 	/** @see StringsService */
@@ -240,12 +240,12 @@ export class StringsService {
 
 	/** @see StringsService */
 	public readonly p2pDeny: string					= translate(
-		`Your "friend" has rejected your call.`
+		`Your colleague has rejected your call.`
 	);
 
 	/** @see StringsService */
 	public readonly p2pDisabled: string				= translate(
-		`Your or your friend's browser may lack support for video calling. ` +
+		`Your or your colleague's browser may lack support for video calling. ` +
 		`Try again with the latest Chrome or Firefox.`
 	);
 
@@ -258,7 +258,7 @@ export class StringsService {
 	/** @see StringsService */
 	public readonly p2pDisabledLocalIOS: string		= translate(
 		`Voice/video calling is currently unsupported on iOS. ` +
-		`However, it will be supported after the upcoming release of iOS 11.`
+		`However, it may be supported by iOS 11.`
 	);
 
 	/** @see StringsService */
@@ -273,7 +273,7 @@ export class StringsService {
 
 	/** @see StringsService */
 	public readonly p2pRequest: string				= translate(
-		`Your friend has requested an encrypted`
+		`Your colleague has requested an encrypted`
 	);
 
 	/** @see StringsService */
@@ -282,11 +282,11 @@ export class StringsService {
 	);
 
 	/** @see StringsService */
-	public readonly p2pTitle: string				= translate(`Cyph Call`);
+	public readonly p2pTitle: string				= translate(`Doctor2Doctor Call`);
 
 	/** @see StringsService */
 	public readonly p2pWarning: string				= translate(
-		`This will involve sharing your IP address with your friend (which isn't a problem ` +
+		`This will involve sharing your IP address with your colleague (which isn't a problem ` +
 		`unless you're actively hiding your current location from them). Continue?`
 	);
 
@@ -317,7 +317,7 @@ export class StringsService {
 
 	/** @see StringsService */
 	public readonly selfDestructActivated: string	= translate(
-		`Cyph set to self-destruct.`
+		`Session set to self-destruct.`
 	);
 
 	/** @see StringsService */
@@ -332,8 +332,8 @@ export class StringsService {
 
 	/** @see StringsService */
 	public readonly signupMessage: string			= translate(
-		`Enjoying the service? Join our waitlist for Cyph v2! ` +
-		`More details are on the way, but the next version of Cyph will include ` +
+		`Enjoying the service? Join our waitlist for Dr2Dr v2! ` +
+		`More details are on the way, but the next version of Dr2Dr will include ` +
 		`group messaging, user accounts, and encrypted chat history.`
 	);
 
